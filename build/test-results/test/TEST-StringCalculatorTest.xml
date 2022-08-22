@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StringCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-22T08:47:52" hostname="AL02025359.local" time="0.007">
+<testsuite name="StringCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-22T09:47:50" hostname="AL02025359.local" time="0.005">
   <properties/>
-  <testcase name="calculateNegativeNumber()" classname="StringCalculatorTest" time="0.007"/>
+  <testcase name="calculate()" classname="StringCalculatorTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

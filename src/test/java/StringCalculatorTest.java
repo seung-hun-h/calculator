@@ -9,10 +9,10 @@ class StringCalculatorTest {
 		StringCalculator calculator = new StringCalculator();
 
 		// when
-		int result = calculator.add("//*\n1,2;3*4;12");
+		int result = calculator.add("//*\n3*4");
 
 		// then
-		assertEquals(22, result);
+		assertEquals(7, result);
 	}
 
 	@Test
@@ -21,6 +21,6 @@ class StringCalculatorTest {
 		StringCalculator calculator = new StringCalculator();
 
 		// when & then
-		assertThrows(RuntimeException.class, () -> calculator.add("//*\n1,2;-3*4;12"));
+		assertThrows(RuntimeException.class, () -> calculator.add("//*\n-3*4"));
 	}
 }
